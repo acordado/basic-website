@@ -1,0 +1,63 @@
+.title-color-light {
+  color: #f9faf8;
+}
+
+.title-color-dark {
+  color: #1f2937;
+}
+
+.text-color-light {
+  color: #e5e7eb;
+}
+
+.text-color-dark {
+  color: #1f2937;
+}
+
+.font-m {
+  font-size: 18px;
+}
+
+.font-g {
+  font-size: 24px;
+}
+
+.font-gg {
+  font-size: 36px;
+}
+
+.font-xg {
+  font-size: 48px;
+}
+
+.text-bold {
+  font-weight: 800;
+}
+
+.text-thin {
+  font-weight: 200;
+}
+
+.text-oblique {
+  font-style: italic;
+}
+
+.bg-gray {
+  background-color: #e5e7eb;
+}
+
+.bg-light-blue {
+  background-color: #3882f6;
+}
+
+.bg-dark-blue {
+  background-color: #1f2937;
+}
+
+.content-margin-block {
+  margin-block: 2vh;
+} 
+
+.container-margin-inline {
+  margin-inline: 10vh;
+}
