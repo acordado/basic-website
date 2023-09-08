@@ -1,3 +1,15 @@
+.remove-bullets {
+  list-style: none;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.no-margin {
+ margin: 0;
+}
+
 .title-color-light {
   color: #f9faf8;
 }
@@ -46,6 +58,10 @@
   background-color: #e5e7eb;
 }
 
+.bg-dark-gray {
+  background-color: #767676;
+}
+
 .bg-light-blue {
   background-color: #3882f6;
 }
@@ -54,10 +70,14 @@
   background-color: #1f2937;
 }
 
+.half-margin-block {
+  margin-block: 2vh;
+}
+
 .content-margin-block {
   margin-block: 2vh;
 } 
 
-.container-margin-inline {
-  margin-inline: 10vh;
+.container-padding-inline {
+  padding-inline: 10vw;
 }
