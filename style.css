@@ -77,19 +77,19 @@
 }
 
 .half-margin-block {
-  margin-block: 2vh;
+  margin-block: 2rem;
 }
 
 .content-margin-block {
-  margin-block: 2vh;
+  margin-block: 4rem;
 } 
 
 .container-padding-inline {
-  padding-inline: 10vw;
+  padding-inline: 10rem;
 }
 
 .container-padding-block {
-  padding: 2rem;
+  padding-block: 2rem;
 }
 
 .container {
@@ -105,12 +105,12 @@
 
 .header-links {
   display: flex;
-  gap: 1vw;
+  gap: 1rem;
 }
 
 .hero {
   display: flex;
-  gap: 5vw;
+  gap: 5rem;
 }
 
 .hero-img {
@@ -135,7 +135,7 @@
 
 .image-text > img {
   box-sizing: border-box;
-  border: 2px violet solid;
+  border: 2px #3882f6 solid;
   border-radius: 20px;
   width: 15rem;
   height: 15rem;
