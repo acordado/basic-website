@@ -2,6 +2,9 @@
   margin: 0;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.5;
+  /* border: 1px rebeccapurple solid; */
+  padding: 0;
+  margin: 0;
 }
 
 .remove-bullets {
@@ -89,7 +92,7 @@
 } 
 
 .container-padding-inline {
-  padding-inline: 10rem;
+  padding-inline: 10vw;
 }
 
 .container-padding-block {
@@ -104,11 +107,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
 }
 
 .header-links {
   display: flex;
   gap: 1rem;
+}
+
+.header > .logo {
+  flex-shrink: 0;
 }
 
 .hero {
@@ -117,7 +125,8 @@
 }
 
 .hero-img {
-  min-width: 40vw;
+  max-width: 40vw;
+  width: 40vw;
   display: flex;
   justify-content: center;
   align-items: center; 
@@ -125,6 +134,7 @@
 
 .hero-text-content > button {
   border: none;
+  max-width: 30vw;
 }
 
 .container-image-text {
@@ -133,14 +143,29 @@
 
 .images-text {
   display: flex;
-  gap: 2rem;
+  justify-content: space-evenly;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .image-text > img {
   box-sizing: border-box;
   border: 3px #3882f6 solid;
   border-radius: 20px;
+  min-width: 10rem;
+  max-width: 15vw;
   width: 15rem;
+  min-height: 10rem;
+  max-height: 15vw;
+  height: 15rem;
+}
+
+.image-text > p {
+  min-width: 10rem;
+  max-width: 15vw;
+  width: 15rem;
+  min-height: 10rem;
+  max-height: 15vw;
   height: 15rem;
 }
 
@@ -153,6 +178,9 @@
   justify-content: space-evenly;
   align-items: center;
   border-radius: 20px;
+  gap: 1rem;
+  padding-inline: 3rem;
+  flex-wrap: wrap;
 }
 
 *[name="signup-button"] {
